@@ -19,7 +19,7 @@
    #     src = ./src/dmenu;
    #   }))
       (slstatus.overrideAttrs (oldAttrs: {
-        src = ./src/slstatus;
+        src = ./slstatus;
       }))
    #   picom
    #   nitrogen
