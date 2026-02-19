@@ -11,23 +11,23 @@
         });
     };
 };
-   # environment.systemPackages = with pkgs; [
+    environment.systemPackages = with pkgs; [
    #   (st.overrideAttrs (oldAttrs: {
    #     src = ./src/st;
    #   }))
    #   (dmenu.overrideAttrs (oldAttrs: {
    #     src = ./src/dmenu;
    #   }))
-   #   (slstatus.overrideAttrs (oldAttrs: {
-   #     src = ./src/slstatus;
-   #   }))
+      (slstatus.overrideAttrs (oldAttrs: {
+        src = ./src/slstatus;
+      }))
    #   picom
    #   nitrogen
    #   j4-dmenu-desktop
    #   maim     
    #   xset
    #   xclip
-   # ];
+    ];
   
    programs.nix-ld = { 
     enable = true;
