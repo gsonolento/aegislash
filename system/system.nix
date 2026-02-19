@@ -4,6 +4,9 @@
     [
       ./hardware.nix
       ./desktops.nix
+      ./theme.nix
+      ./extra/battery.nix
+      ./extra/trash.nix
       ./packages.nix
     ];
 
@@ -19,7 +22,7 @@
     device = "nodev";
 };
 
- networking.hostName = "athena";
+ networking.hostName = "satturn";
  networking.networkmanager.enable = true;
 
    # Idioma do sistema

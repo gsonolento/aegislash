@@ -13,7 +13,7 @@
     kitty alacritty micro 
 
     # browser/ study
-    librewolf mpv onlyoffice polybar sxhkd rofi flameshot xmobar trayer emacs
+    librewolf mpv onlyoffice-desktopeditors polybar sxhkd rofi flameshot xmobar trayer emacs
 
     #apps
     dunst libnotify appimage-run pear-desktop  mesa glfw pomodoro-gtk focuswriter

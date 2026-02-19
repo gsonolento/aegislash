@@ -4,7 +4,7 @@
   };
 
   outputs = inputs@{ self, nixpkgs, ... }: {
-    nixosConfigurations.hera = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.satturn = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
 
       specialArgs = {
